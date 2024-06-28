@@ -4,7 +4,7 @@ import './App.css';
 import CodeEditor from './components/CodeEditor'; // Import the CodeEditor component
 
 function App() {
-  const githubUrl = 'https://github.com/your-username/your-repository'; // Replace with your GitHub repository URL
+  const githubUrl = 'https://github.com/sathish302002/Simple-Code-Editor'; // Replace with your GitHub repository URL
 
   return (
     <div className="App">

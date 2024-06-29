@@ -41,3 +41,46 @@ Future Improvements
 Add theme switcher for syntax highlighting.
 Implement code linting and error checking.
 
+Step 1: Set Up Your React Project
+Install Node.js: If you haven't installed Node.js, download and install it from nodejs.org.
+
+Create a React Project:
+
+
+npx create-react-app simple-code-editor
+cd simple-code-editor
+
+Install Dependencies:
+
+npm install prismjs prism-react-renderer
+
+Step 2: Create the Code Editor Component
+Create a New Component: Create a new file named CodeEditor.js in the src folder.
+
+Import Necessary Libraries:
+
+javascript
+
+import React, { useState } from 'react';
+import Prism from 'prismjs';
+import 'prismjs/themes/prism.css'; // Import PrismJS theme
+import Highlight, { defaultProps } from 'prism-react-renderer';
+Define the Code Editor Component:
+
+Step 3: Use the Code Editor Component
+Modify App.js:
+
+javascript
+
+import React from 'react';
+import './App.css';
+import CodeEditor from './CodeEditor';
+
+
+Step 4: Run Your Application
+Start the Development Server:
+
+
+npm start
+View Your Application: Open your browser and navigate to http://localhost:3000. You should see a simple code editor with syntax highlighting
+
